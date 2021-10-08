@@ -247,9 +247,21 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s(/*Your Code Here*/) {
+function get20s(array) {
+	let myString = array.toString();
+	return myString;
+	// let dead = [];
+	// for (let i = 0; i < array.length; i++) {
+	// 	'years'.split(' ');
+	// 	dead.push(array[i].years);
+	// }
+	// return dead;
 	/*Your Code Here*/
 }
+
+console.log(get20s(artists));
+
+// console.log('task 4', get20s(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use removeArtist to do the following:
@@ -260,9 +272,7 @@ Use removeArtist to do the following:
 
 For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/) {
-	/*Your Code Here*/
-}
+function removeArtist(array, number) {}
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -280,9 +290,13 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
+function addArtist(array, id, name, years, genre, nationality, bio) {
 	/*Your Code Here*/
+	array.push({ id, name, years, genre, nationality, bio });
+	return array;
 }
+
+console.log('task 6', addArtist(artists, 20, 'Jon Mezzadri', '1987 - current day', 'Web Design', 'Italian', 'Here is some info on this gentleman. He has some awesome finger paintings back home.'));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -291,9 +305,17 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/) {
-	/*Your Code Here*/
+function lotsOfArt(array) {
+	let result = [];
+	for (let i = 0; i < array.length; i++) {
+		if (array[i]['paintings'] > 100) {
+			result.push(array[i]['name']);
+		}
+	}
+	return result;
 }
+
+console.log('task 7', lotsOfArt(artists));
 
 /* ***** END OF TASKS ***** */
 
