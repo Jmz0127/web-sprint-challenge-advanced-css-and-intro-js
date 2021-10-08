@@ -30,7 +30,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
    1. Practicing the use of semantic HTML, which is basically giving your code structural meaning and the provides the ability for fellow coders and automated processes the ability to easily understand and display code, for example, for SEO purposes (search engine optimization) to make your work easier to find.
 
-      - An example of this would be to use '<section>' when appropriate instead of '<div>' which essentially in itself gives more meaning that this is a section and not just a block of code. That being said there are times when you need to utilize '<div>', but the key is isolating the use to when only necessary.
+      - An example of this would be to use 'section' when appropriate instead of 'div' which essentially in itself gives more meaning that this is a section and not just a block of code. That being said there are times when you need to utilize 'div', but the key is isolating the use to when only necessary.
 
    2. Make sure your web experience is effectively working on not only desktop by a myriad of mobile devices - use viewport and media queries effectively and think how your code is being viewed.
 
@@ -38,7 +38,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
 3. How would you explain the concept of a variable to someone new to programming?
 
-   - Variables are a way to easily store data to be able to be called later on for various purposes. There are three main types from what we've learned so far: '<const>' '<let>' and '<var>'. All three have their place and have different use cases.
+   - Variables are a way to easily store data to be able to be called later on for various purposes. There are three main types from what we've learned so far: 'const' 'let' and 'var'. All three have their place and have different use cases.
      - for example, var dog = 'Roger'; is a way to store the name 'Roger' into the variable dog to so you can just utilize dog in future functions or processes later on in what you're writing.
 
 4. What is the purpose of using functions in code?
