@@ -245,23 +245,23 @@ Use get20s to do the following:
 
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
-// Hint - Look up the .split() method
+// Hint - Look up the .split() method <<
+
+// isnt the split method used for strings? how does this apply to objects? I'm a little unsure on this as we did not go over the split method during class when dealing with arrays...
 
 function get20s(array) {
-	let myString = array.toString();
-	return myString;
-	// let dead = [];
-	// for (let i = 0; i < array.length; i++) {
-	// 	'years'.split(' ');
-	// 	dead.push(array[i].years);
-	// }
-	// return dead;
-	/*Your Code Here*/
+	// 	let dead20s = [];
+	// 	for (let i = 0; i < array.length; i++) {
+	// 		{array.years}.split(' ');
+	// 		if (array[i].years >= 1900);
+	// 		{
+	// 			dead20s.push(array[i].name);
+	// 		}
+	// 	}
+	// 	return dead20s;
 }
 
-console.log(get20s(artists));
-
-// console.log('task 4', get20s(artists));
+console.log('task 4', get20s(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use removeArtist to do the following:
